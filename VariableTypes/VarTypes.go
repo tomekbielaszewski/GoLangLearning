@@ -25,4 +25,12 @@ func main() {
 	fmt.Print(max_int8, max_int16, max_int32, max_int64)
 	fmt.Print(min_int64)
 	fmt.Print(same_as_uint8, same_as_int32, same_as_uint32_or_uint64, same_size_as_uint)
+
+	var x float64 = 20.0
+	y := 42
+
+	fmt.Println(x)
+	fmt.Println(y)
+	fmt.Printf("x is of type %T\n", x)
+	fmt.Printf("y is of type %T\n", y)
 }
