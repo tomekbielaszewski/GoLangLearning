@@ -16,7 +16,7 @@ func main() {
 	var min_int64 int64 = -9223372036854775808
 
 	var same_as_uint8 byte
-	var same_as_int32 rune
+	var same_as_int32 rune // represents char from Java
 	var same_as_uint32_or_uint64 uint
 	var same_size_as_uint int
 
